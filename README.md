@@ -1,16 +1,20 @@
-# ns
+# MediaVault 
 
-A new Flutter project.
+A simple Flutter app that allows users to capture photos and videos, save them to Firebase Cloud Storage, and view previews of the photos or play videos using a video player.
 
-## Getting Started
+## Features
+- Capture photos and videos using the device's camera.
+- Save photos and videos to Firebase Cloud Storage.
+- View photo previews and play videos directly within the app.
+- Firebase integration for cloud storage management.
 
-This project is a starting point for a Flutter application.
+## Technologies Used
+- **Flutter**: Framework for building cross-platform mobile applications.
+- **Firebase**: Cloud Storage to store media files and Firebase Firestore for metadata (optional).
+- **camera**: For capturing photos and videos using the device's camera.
+- **firebase_storage**: For uploading and retrieving media files to/from Firebase Cloud Storage.
+- **video_player**: To play videos directly in the app.
+- **permission_handler**: To handle permissions for camera and storage access.
+- **path_provider**: To get the device's storage paths.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
